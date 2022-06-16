@@ -1,7 +1,24 @@
-@import url(./utills/_variables.scss);
-@import url(./utills/_visually_headen.scss);
 
-@import url(./base/_common.scss);
-@import url(./base/_container.scss);
-@import url(./base/section.scss);
+
+@import './base/_common.scss';
+@import './base/_container.scss';
+@import './base/section.scss';
+
+@import './layout/_clients.scss';
+@import './layout/_hero.scss';
+@import './layout/_our-work.scss';
+@import './layout/_portfolio.scss';
+@import './layout/_team.scss';
+@import './layout/_values.scss';
+
+@import './utills/_footer.scss';
+@import './utills/_header.scss';
+@import './utills/_modal.scss';
+@import './utills/_variables.scss';
+@import './utills/_visually_headen.scss';
+
+@import './components/_btn.scss';
+@import './components/_logo.scss';
+@import './components/_title.scss';
+
 
