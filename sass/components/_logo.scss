@@ -2,7 +2,7 @@
     margin-right: 90px;
 }
 
-.logo-link {
+.logo__link {
     font-family: var(--secondary-font);
     font-weight: 700;
     font-size: 26px;
@@ -11,14 +11,14 @@
 }
 
 
-.logo-link-first {
+.logo_theme_accent {
     color: var(--accent-color);
 }
 
-.logo-link-header {
+.logo_theme_light {
     color: var(--text-black);
 }
 
-.logo-link-footer {
+.logo_theme_dark {
     color: var(--text-white);
 }
