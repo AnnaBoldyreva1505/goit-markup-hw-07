@@ -1,8 +1,6 @@
-
-
 @import './base/_common.scss';
 @import './base/_container.scss';
-@import './base/section.scss';
+@import './base/_section.scss';
 
 @import './layout/_clients.scss';
 @import './layout/_hero.scss';
@@ -10,17 +8,15 @@
 @import './layout/_portfolio.scss';
 @import './layout/_team.scss';
 @import './layout/_values.scss';
+@import './layout/_footer.scss';
+@import './layout/_header.scss';
 
-@import './utills/_footer.scss';
-@import './utills/_header.scss';
-@import './utills/_modal.scss';
 @import './utills/_variables.scss';
 @import './utills/_visually_headen.scss';
-@import './utills/placeholder.scss';
-@import './utills/mixins.scss';
+@import './utills/_placeholder.scss';
+@import './utills/_mixins';
 
 @import './components/_btn.scss';
 @import './components/_logo.scss';
 @import './components/_title.scss';
-
-
+@import './components/_modal.scss';
