@@ -12,7 +12,7 @@
         rel="stylesheet">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css" />
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.min.css">
     <title>Студия</title>
 </head>
 
@@ -138,13 +138,48 @@
          
 
         </form>
+        <div class="nav">
+
+       
+        <nav class="navigation">
+        <button type="button" class="menu-btn is-open" aria-expanded="false" data-menu-button>
+            <svg width="40px" heigth="40px" aria-label="Переключатель мобильного меню">
+                <use class="icon-cross" href="./images/icons/sprite.svg#telegram"></use>
+                <use class="icon-menu" href="./images/icons/sprite.svg#twitter"></use>
+            </svg>
+        </button>
+        
+        <div class="menu-2">
+            <nav class="navigation">
+                <a class="logo link" href="index.html" lang="en"><span class="logo__link logo_theme_accent">Web</span><span
+                        class="logo__link logo_theme_light">Studio</span>
+                </a>
+                <ul class="list menu">
+                    <li class="menu__item">
+                        <a class="menu__link menu__link_current link" href="index.html">Студия</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="menu__item">
+                        <a class="menu__link link" href="">Контакты</a>
+                    </li>
+                </ul>
+        </div>
+        </nav>
+
+
+        <nav class="nav">
+        
+    </nav>
+    </div>
 
     </footer>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="modal-close-logo" width="20px" height="20px">
-                    <use href="./images/icons/sprite.svg#icon-close"></use>
+                    <use href="./images/icons/sprite.svg#telegram"></use>
                 </svg>
             </button>
         </div>

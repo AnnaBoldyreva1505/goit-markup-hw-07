@@ -40,6 +40,11 @@
             </li>
           </ul>
         </nav>
+        <button type="button" class="mobile-menu-open-btn" data-menu-open>
+          <svg class="mobile-menu-open-btn__icon" width="40" height="40">
+            <use href="./images/icons/sprite.svg#menu"></use>
+          </svg>
+        </button>
         <ul class="contacts list">
           <li class="contacts__item">
             <a class="contacts__mail link" href="mailto:info@devstudio.com">
@@ -53,25 +58,68 @@
             <a class="contacts__phone-number link" href="tel:+380961111111">
               <svg class="contacts__icon" width="10px" height="16px">
                 <use href="./images/icons/sprite.svg#smartphone"></use></svg
-              >+38 096 111 11 11</a
-            >
+              >+38 096 111 11 11</a>            >
           </li>
         </ul>
       </div>
+
+
+        <!-- ======MOBILE MENU========== -->
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu__container">
+          <button type="button" class="mobile-menu__close-btn" data-menu-close>
+            <svg class="mobile-menu__close-icon" width="40" height="40">
+              <use href="./images/icons/sprite.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="list mobile-menu__list">
+            <li class="mobile_menu__item">
+              <a class="mobile-menu__link link" href="index.html">Студия</a>
+            </li>
+            <li class="mobile_menu__item">
+              <a class="mobile-menu__link link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="mobile_menu__item">
+              <a class="mobile-menu__link link" href="">Контакты</a>
+            </li>
+          </ul>
+
+          <ul class="mobile-contacts list">
+            <li class="mobile-contacts__phone-number">
+              <a class="mobile-contacts__phone-number-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+            
+            <li class="mobile-contacts__mail">
+              <a class="mobile-contacts__mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+          
+            
+          </ul>
+
+          <ul class="list mobile-contacts__social">
+            <li class="mobile-contacts__item"><a class="mobile-contacts__link link" href="">Instagram</a></li>
+            <li class="mobile-contacts__item"><a class="mobile-contacts__link link" href="">Twitter</a></li>
+            <li class="mobile-contacts__item"><a class="mobile-contacts__link link" href="">Facebook</a></li>
+            <li class="mobile-contacts__item"><a class="mobile-contacts__link link" href="">LinkedIn</a></li>
+          </ul>
+        </div>
+      </div>
+        <!-- ======MOBILE MENU END========== -->
+
     </header>
 
     <!-- main - для уникальной информации -->
-    <main>
+    <!-- <main> -->
       <!-- HERO section-->
-      <section class="hero section">
+      <!-- <section class="hero section">
         <div class="container">
           <h1 class="hero__header">Эффективные решения для вашего бизнеса</h1>
           <button class="hero__btn hero__btn_theme" type="button" data-modal-open>Заказать услугу</button>
         </div>
-      </section>
+      </section> -->
 
       <!-- our values section-->
-      <section class="values section">
+      <!-- <section class="values section">
         <div class="container">
           <ul class="values__list list">
             <li class="values-margin">
@@ -120,10 +168,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- What do we do section -->
-      <section class="our-specialty section">
+      <!-- <section class="our-specialty section">
         <div class="container">
           <h2 class="section-title">Чем мы занимаемся</h2>
           <ul class="our-specialt-list list">
@@ -162,10 +210,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Our team section -->
-      <section class="our-team section">
+      <!-- <section class="our-team section">
         <div class="container">
           <h2 class="section-title">Наша команда</h2>
           <ul class="employee list">
@@ -323,9 +371,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="clients section">
+      <!-- <section class="clients section">
         <div class="container">
           <h2 class="section-title">Постоянные клиенты</h2>
           <ul class="clients-item list">
@@ -368,10 +416,10 @@
           </ul>
         </div>
       </section>
-    </main>
+    </main> -->
 
     <!-- Contact information section -->
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="footer-block container">
         <div class="footer-contacts">
           <a class="footer-contacts-block link" href="index.html" lang="en"
@@ -464,10 +512,10 @@
         </button>
 
         <form class="contact-form js-speaker-form">
-          <p class="contact-form__header">Оставьте свои данные, мы вам перезвоним</p>
-          <!-- ИМЯ -->
+          <p class="contact-form__header">Оставьте свои данные, мы вам перезвоним</p> -->
+        
 
-          <label class="contact-form__field"
+          <!-- <label class="contact-form__field"
             >Имя
             <div class="contact-form__input_wrapper">
               <input
@@ -483,7 +531,7 @@
             </div>
           </label>
 
-          <!-- ТЕЛЕФОН -->
+       
 
           <label class="contact-form__field"
             >Телефон
@@ -502,7 +550,7 @@
             </div>
           </label>
 
-          <!-- МЕЙЛ -->
+         
           <label for="email" class="contact-form__field"
             >Почта
             <div class="contact-form__input_wrapper">
@@ -535,8 +583,9 @@
 
           <button class="contact-form__btn" type="submit">Отправить</button>
         </form>
-      </div>
+      </div> -->
     </div>
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
